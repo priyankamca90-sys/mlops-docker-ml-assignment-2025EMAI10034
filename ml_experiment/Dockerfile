@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the project
 COPY . .
 
-CMD ["python", "app.py"]
+CMD ["python", "palmer-panguin-decisionTree.py"]
